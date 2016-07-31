@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="wuliuERP"
+  id="myeclipse.1467616467078"
+  context-root="/aaaaaa"
+  j2ee-spec="5.0"
+  archive="wuliuERP.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

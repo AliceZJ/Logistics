@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>myServlet</servlet-name>
+    <servlet-class>hyj.severlet_hyj</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cus_deal_servlet</servlet-name>
+    <servlet-class>com.cus_gjh.cus_deal_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cus_detial_servlet</servlet-name>
+    <servlet-class>com.cus_gjh.cus_detial_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>order_deal_servlet</servlet-name>
+    <servlet-class>com.cus_gjh.order_deal_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>order_detial_servlet</servlet-name>
+    <servlet-class>com.cus_gjh.order_detial_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>order_rece_servlet</servlet-name>
+    <servlet-class>com.cus_gjh.order_rece_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>order_handle_servlet</servlet-name>
+    <servlet-class>com.cus_gjh.order_handle_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cus_rece_servlet</servlet-name>
+    <servlet-class>com.cus_gjh.cus_rece_servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>myServlet</servlet-name>
+    <url-pattern>/myServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cus_deal_servlet</servlet-name>
+    <url-pattern>/cus_deal_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cus_detial_servlet</servlet-name>
+    <url-pattern>/cus_detial_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>order_deal_servlet</servlet-name>
+    <url-pattern>/order_deal_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>order_detial_servlet</servlet-name>
+    <url-pattern>/order_detial_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>order_rece_servlet</servlet-name>
+    <url-pattern>/order_rece_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>order_handle_servlet</servlet-name>
+    <url-pattern>/order_handle_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cus_rece_servlet</servlet-name>
+    <url-pattern>/cus_rece_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>gongSiZiLiaoSL_hyj</servlet-name>
+    <servlet-class>admin.data.hyj.gongSiZiLiaoSL_hyj</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>wuLiaoGuanLiSL_hyj</servlet-name>
+    <servlet-class>admin.data.hyj.wuLiaoGuanLiSL_hyj</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>cangKuGuanLiSL_hyj</servlet-name>
+    <servlet-class>admin.data.hyj.cangKuGuanLiSL_hyj</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>quYuZiLiaoSL_hyj</servlet-name>
+    <servlet-class>admin.data.hyj.quYuZiLiaoSL_hyj</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>cangWeiZiLiaoSL_hyj</servlet-name>
+    <servlet-class>admin.data.hyj.cangWeiZiLiaoSL_hyj</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getHangye</servlet-name>
+    <servlet-class>admin.data.hyj.getHangye</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>save_gongsiziliao</servlet-name>
+    <servlet-class>admin.data.hyj.save_gongsiziliao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>change_or_del_gongsi</servlet-name>
+    <servlet-class>admin.data.hyj.change_or_del_gongsi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>saveChange</servlet-name>
+    <servlet-class>admin.data.hyj.saveChange</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addinfo</servlet-name>
+    <servlet-class>admin.data.hyj.addinfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getinfo</servlet-name>
+    <servlet-class>admin.data.hyj.getinfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>save_addinfo</servlet-name>
+    <servlet-class>admin.data.hyj.save_addinfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>changeinfo</servlet-name>
+    <servlet-class>admin.data.hyj.changeinfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delinfo</servlet-name>
+    <servlet-class>admin.data.hyj.delinfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getchangeinfo</servlet-name>
+    <servlet-class>admin.data.hyj.getchangeinfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>gongSiZiLiaoSL_hyj</servlet-name>
+    <url-pattern>/gongSiZiLiaoSL_hyj</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>wuLiaoGuanLiSL_hyj</servlet-name>
+    <url-pattern>/wuLiaoGuanLiSL_hyj</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cangKuGuanLiSL_hyj</servlet-name>
+    <url-pattern>/cangKuGuanLiSL_hyj</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>quYuZiLiaoSL_hyj</servlet-name>
+    <url-pattern>/quYuZiLiaoSL_hyj</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cangWeiZiLiaoSL_hyj</servlet-name>
+    <url-pattern>/cangWeiZiLiaoSL_hyj</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getHangye</servlet-name>
+    <url-pattern>/servlet/getHangye</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>save_gongsiziliao</servlet-name>
+    <url-pattern>/servlet/save_gongsiziliao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>change_or_del_gongsi</servlet-name>
+    <url-pattern>/servlet/change_or_del_gongsi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>saveChange</servlet-name>
+    <url-pattern>/servlet/saveChange</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addinfo</servlet-name>
+    <url-pattern>/addinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getinfo</servlet-name>
+    <url-pattern>/getinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>save_addinfo</servlet-name>
+    <url-pattern>/save_addinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changeinfo</servlet-name>
+    <url-pattern>/changeinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delinfo</servlet-name>
+    <url-pattern>/delinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getchangeinfo</servlet-name>
+    <url-pattern>/getchangeinfo</url-pattern>
+  </servlet-mapping>
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.admin.gl_v.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserinfoServlet</display-name>
+    <servlet-name>UserinfoServlet</servlet-name>
+    <servlet-class>com.admin.gl_v.UserinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddUser_vServlet</servlet-name>
+    <servlet-class>com.admin.gl_v.AddUser_vServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Btn_optServlet</servlet-name>
+    <servlet-class>com.admin.gl_v.Btn_optServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AppseverServlet</servlet-name>
+    <servlet-class>com.admin.gl_v.AppseverServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserinfoServlet</servlet-name>
+    <url-pattern>/UserinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUser_vServlet</servlet-name>
+    <url-pattern>/AddUser_vServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Btn_optServlet</servlet-name>
+    <url-pattern>/Btn_optServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AppseverServlet</servlet-name>
+    <url-pattern>/AppseverServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

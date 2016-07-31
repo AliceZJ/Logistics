@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="wuliuERP">
+        <wb-resource deploy-path="/" source-path="/WebRoot"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="/aaaaaa"/>
+        <property name="java-output-path" value="/wuliuERP/WebRoot/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>

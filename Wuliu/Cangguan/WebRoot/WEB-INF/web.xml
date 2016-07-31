@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GointoServlet</servlet-name>
+    <servlet-class>zl.GointoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GooutServlet</servlet-name>
+    <servlet-class>zl.GooutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>depotservlet</servlet-name>
+    <servlet-class>zhangjuan.depotservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dcservelt</servlet-name>
+    <servlet-class>zhangjuan.dcservelt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pro_check_servlet</servlet-name>
+    <servlet-class>zhangjuan.pro_check_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pcservlet</servlet-name>
+    <servlet-class>zhangjuan.pcservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pro_reject_servlet</servlet-name>
+    <servlet-class>zhangjuan.pro_reject_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>p_r_servlet</servlet-name>
+    <servlet-class>zhangjuan.p_r_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pro_num_che_servlet</servlet-name>
+    <servlet-class>zhangjuan.pro_num_che_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pc_servlet</servlet-name>
+    <servlet-class>zhangjuan.pc_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>add_pcn_servlet</servlet-name>
+    <servlet-class>zhangjuan.add_pcn_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>get_id_num_servlet</servlet-name>
+    <servlet-class>zhangjuan.get_id_num_servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GointoServlet</servlet-name>
+    <url-pattern>/GointoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GooutServlet</servlet-name>
+    <url-pattern>/GooutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>depotservlet</servlet-name>
+    <url-pattern>/depotservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dcservelt</servlet-name>
+    <url-pattern>/dcservelt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pro_check_servlet</servlet-name>
+    <url-pattern>/pro_check_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pcservlet</servlet-name>
+    <url-pattern>/pcservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pro_reject_servlet</servlet-name>
+    <url-pattern>/pro_reject_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>p_r_servlet</servlet-name>
+    <url-pattern>/p_r_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pro_num_che_servlet</servlet-name>
+    <url-pattern>/pro_num_che_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pc_servlet</servlet-name>
+    <url-pattern>/pc_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>add_pcn_servlet</servlet-name>
+    <url-pattern>/add_pcn_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>get_id_num_servlet</servlet-name>
+    <url-pattern>/get_id_num_servlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
